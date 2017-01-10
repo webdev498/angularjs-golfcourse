@@ -1,0 +1,26 @@
+.geocoder-service-example {
+  padding: 10px;
+}
+
+.geocoder-service-example input {
+  width: 300px;
+}
+
+.number{
+	float:left;
+	margin-top: 10px;
+}
+
+.wrapper{
+	margin-left: 46px;
+}
+
+.shady{
+	-moz-box-shadow: 0px 5px 5px rgba(40,40,40,0.6);
+    -webkit-box-shadow: 0px 5px 5px rgba(40,40,40,0.6);
+    box-shadow: 0px 5px 5px rgba(40,40,40,0.6);
+
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+    zoom: 1;
+}

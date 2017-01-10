@@ -1,0 +1,86 @@
+
+/* placeholder background 
+body {
+  background: url(bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+
+/* INPUT */
+.search {
+}
+.search-field {
+  background: #efefef;
+  text-align: left;
+}
+.btn.search-field {
+  cursor: text;
+}
+.search-field:hover {
+  background-color: #fff;
+}
+.search-field input{
+    border: 0;
+    background: transparent;
+}
+textarea:focus, input:focus {
+  outline: 0;
+}
+.icon-search:before {
+  color: #BDD731;
+}
+
+
+/* RESULTS */
+.results {
+  margin-top: 2em;
+  margin-left:2em;
+  /* do whatever UI toolkit says for responsive 1/3 column… */
+  max-width: 400px;
+
+}
+.listItem {
+  border-top: 1px solid #ccc;
+  padding-top: 1em;
+}
+.listItem .badge {
+  float: left;
+  margin-right: 8px;
+}
+.listItem h5 {
+  margin-bottom: 0px;
+}
+.listItem p {
+  margin-left: 30px; /*or whatever badge width… */
+  margin-bottom: 1em;
+}
+
+/* MAP */
+.map {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.badge {
+  background: #BDD731;
+}
+.map .badge {
+  position: absolute;
+  /* how to make these more prominent? */
+}
+.badge.one {
+  left: 65%;
+  top: 100px;
+}
+.badge.two {
+  right: 10%;
+  top: 300px;
+}
+.badge.three {
+  right: 25%;
+  top: 500px;
+}
